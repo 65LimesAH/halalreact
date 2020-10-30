@@ -7,15 +7,15 @@ import {
     Segment,
 } from 'semantic-ui-react'
 import logo from "../images/logo2.0.png"
-import MenuPricingTableBeef from "../components/Menu/Beef" 
+import MenuPricingTableBeef from "../components/Menu/Beef"
 import MenuPricingTableChicken from "../components/Menu/Chicken"
 import MenuPricingTableGoatLamb from "../components/Menu/Goat_Lamb"
 import Footer from "../components/Footer/Footer"
 
 
 const HalaCuts = () => (
-    <Segment vertical style={{  background:"#3A3A3C", }}>
-        <Grid container columns={2} stackable verticalAlign='middle' style={{background:"white",}}>
+    <Segment vertical style={{ background: "#3A3A3C", }}>
+        <Grid container columns={2} stackable verticalAlign='middle' style={{ background: "white", }}>
             <Grid.Row>
                 <Grid.Column floated='left'>
                     <Image src={logo} size='huge' />
@@ -28,7 +28,7 @@ const HalaCuts = () => (
                         The animal or poultry has to be slaughtered in the ritual way known as Zibah or Zabihah. See the list below for additional details.
                     </p>
                     <List>
-                        <List.Item>Animals are required to be alive and healthy at the time of slaughter, since carrion is forbidden and, jugular vein, carotid artery and windpipe have to be severed by a razor sharp knife by a single swipe, to incur as less a pain as possible. 
+                        <List.Item>Animals are required to be alive and healthy at the time of slaughter, since carrion is forbidden and, jugular vein, carotid artery and windpipe have to be severed by a razor sharp knife by a single swipe, to incur as less a pain as possible.
                         </List.Item>
                         <List.Item>All the flowing blood (al- An`am 6:145) must be drained out of the carcass, as blood is forbidden
                         </List.Item>
@@ -40,7 +40,7 @@ const HalaCuts = () => (
                 </Grid.Column>
             </Grid.Row>
         </Grid>
-        <Grid container columns={3} stackable textAlign="center" verticalAlign='top' style={{background:"white",}}>          
+        <Grid container columns={3} stackable textAlign="center" verticalAlign='top' style={{ background: "white", }}>
             <Grid.Column>
                 <Header as='h2'>
                     Beef
@@ -58,10 +58,9 @@ const HalaCuts = () => (
                     Goat and Lamb
                 </Header>
                 <MenuPricingTableGoatLamb></MenuPricingTableGoatLamb>
-            </Grid.Column>           
+            </Grid.Column>
         </Grid>
         <Footer></Footer>
- 
     </Segment>
 
 )

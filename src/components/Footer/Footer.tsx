@@ -2,8 +2,10 @@ import React from 'react'
 import {
   Grid,
   Header,
-  Icon
+  Icon,
+  Image
 } from 'semantic-ui-react'
+import LogoHor from '../Footer/Images/logo2.0hor.png'
 
 const Footer = () => (
 
@@ -11,7 +13,7 @@ const Footer = () => (
     <Grid.Row>
       <Grid.Column width={7}>
         <Header as='h4' >
-          Footer Header
+          <Image src={LogoHor} alt='Halal Cuts Logo' style={{ height:'7vh', width:'auto'}}/>
       </Header>
         <p> Created with <Icon name='heart outline' circular color={"green"} /> by 65 Limes powered by <Icon name='react' circular color={"blue"} /></p>
       </Grid.Column>

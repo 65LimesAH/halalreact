@@ -2,6 +2,7 @@ import React from 'react'
 import {
     Grid,
     Header,
+    Icon
 
 
 } from 'semantic-ui-react'
@@ -15,9 +16,7 @@ const Footer = () => (
       <Header as='h4' >
         Footer Header
       </Header>
-      <p>
-        Extra space for a call to action inside the footer that could help re-engage users.
-      </p>
+      <p> Created with <Icon name='heart outline' circular color={"green"}/> by 65 Limes powered by <Icon name='react' circular color={"blue"}/></p>
     </Grid.Column>
   </Grid.Row>
 </Grid>

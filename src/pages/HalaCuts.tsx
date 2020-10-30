@@ -14,7 +14,7 @@ import Footer from "../components/Footer/Footer"
 
 
 const HalaCuts = () => (
-    <Segment vertical style={{  background:"black", }}>
+    <Segment vertical style={{  background:"#3A3A3C", }}>
         <Grid container columns={2} stackable verticalAlign='middle' style={{background:"white",}}>
             <Grid.Row>
                 <Grid.Column floated='left'>

@@ -13,7 +13,7 @@ const MenuPricingTableGoatLamb= () => (
         </Table.Header> 
         <Table.Body>   
             <Table.Row>
-                <Table.Cell>Goat loin chops t </Table.Cell>
+                <Table.Cell>Goat loin chops</Table.Cell>
                 <Table.Cell textAlign="center">$9.99</Table.Cell>
             </Table.Row>
             <Table.Row>

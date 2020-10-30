@@ -2,8 +2,8 @@ import React from 'react'
 import HalalCuts from "./pages/HalaCuts"
 
 const HomepageLayout = ()=> (
-<div>
-  <HalalCuts></HalalCuts>
-</div>
+
+<HalalCuts></HalalCuts>
+
 )
 export default HomepageLayout

@@ -18,17 +18,24 @@ const HalalHeader = () => (
     <Grid.Row textAlign="right" columns={1}>
       <Grid.Column>
         <Image src={Cleaver} size="mini" floated="left" />
-        <Icon name="facebook" circular inverted color={"orange"} size="large" />
-        <Icon name="instagram" circular inverted color={"orange"} size="large" />
-        <Icon name="twitter" circular inverted color={"orange"} size="large" />
-        <Icon name="phone square" circular inverted color={"orange"} size="large" />
-        <Icon
-          name="map marker alternate"
-          circular
-          inverted
-          color={"orange"}
-          size="large"
-        />
+        <a href="http://https://www.facebook.com/halalcuts/.com" >
+          <Icon name="facebook" circular inverted color={"orange"} size="large" />
+        </a>
+        <a href="http://instagram.com" >
+          <Icon name="instagram" circular inverted color={"orange"} size="large" />
+        </a>
+        <a href="tel:4695658083" >        
+          <Icon name="phone square" circular inverted color={"orange"} size="large" />
+        </a>
+        <a href="https://goo.gl/maps/ZD7j4KLES35xWU6c6">
+          <Icon
+            name="map marker alternate"
+            circular
+            inverted
+            color={"orange"}
+            size="large"
+          />
+          </a>
       </Grid.Column>
     </Grid.Row>
     <Grid.Row columns={2} divided verticalAlign="middle">

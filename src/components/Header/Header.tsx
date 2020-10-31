@@ -12,18 +12,20 @@ const HalalHeader = () => (
       background: `url(${background})`,
       backgroundSize: "cover",
       backgroundRepeat: "no-repeat",
+      backgroundPosition: "center",
     }}
   >
     <Grid.Row textAlign="right" columns={1}>
       <Grid.Column>
         <Image src={Cleaver} size="mini" floated="left" />
-        <Icon name="facebook" circular color={"orange"} size="large" />
-        <Icon name="instagram" circular color={"orange"} size="large" />
-        <Icon name="twitter" circular color={"orange"} size="large" />
-        <Icon name="phone square" circular color={"orange"} size="large" />
+        <Icon name="facebook" circular inverted color={"orange"} size="large" />
+        <Icon name="instagram" circular inverted color={"orange"} size="large" />
+        <Icon name="twitter" circular inverted color={"orange"} size="large" />
+        <Icon name="phone square" circular inverted color={"orange"} size="large" />
         <Icon
           name="map marker alternate"
           circular
+          inverted
           color={"orange"}
           size="large"
         />
